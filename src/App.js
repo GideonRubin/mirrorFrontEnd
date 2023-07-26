@@ -17,7 +17,7 @@ function App() {
   React.useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/set/${info}`);
+        const response = await fetch(url+`/set/${info}`);
         console.log(response);
         // Handle the response if needed
       } catch (error) {
@@ -31,7 +31,7 @@ function App() {
   React.useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/get");
+        const response = await fetch(url+"/get");
         const result = await response.json();
         console.log(result);
       } catch (error) {
