@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: grid;
+}
+
+.App-logo {
+  text-align: center;
+  justify-self: center;
+  height: 8vmin;
+  margin-top:50px;
+  pointer-events: none;
+}
+
+.App-sub {
+  margin-bottom: 70px;
+  font-size: 40px;
+  max-width: 100px;
+}
+
+
+.App-header {
+  background-color: #1f1f1f;
+  min-height: 100vh;
+  display: inline-grid;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
